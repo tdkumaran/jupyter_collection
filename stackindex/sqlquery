@@ -1,0 +1,25 @@
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-01-01' AND Posts.CreationDate < '2009-02-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-02-01' AND Posts.CreationDate < '2009-03-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-03-01' AND Posts.CreationDate < '2009-04-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-04-01' AND Posts.CreationDate < '2009-05-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-05-01' AND Posts.CreationDate < '2009-06-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-06-01' AND Posts.CreationDate < '2009-07-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-07-01' AND Posts.CreationDate < '2009-08-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-08-01' AND Posts.CreationDate < '2009-09-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-09-01' AND Posts.CreationDate < '2009-10-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-10-01' AND Posts.CreationDate < '2009-11-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-11-01' AND Posts.CreationDate < '2009-12-01')
+UNION
+Select count(*) as count from Posts where Tags like '%<java>%' AND (Posts.CreationDate > '2009-12-01' AND Posts.CreationDate < '2009-12-31')
+
+
