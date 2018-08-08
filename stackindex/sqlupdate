@@ -1,0 +1,23 @@
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-01-01' AND Posts.CreationDate < '2010-02-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-02-01' AND Posts.CreationDate < '2010-03-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-03-01' AND Posts.CreationDate < '2010-04-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-04-01' AND Posts.CreationDate < '2010-05-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-05-01' AND Posts.CreationDate < '2010-06-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-06-01' AND Posts.CreationDate < '2010-07-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-07-01' AND Posts.CreationDate < '2010-08-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-08-01' AND Posts.CreationDate < '2010-09-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-09-01' AND Posts.CreationDate < '2010-10-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-10-01' AND Posts.CreationDate < '2010-11-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-11-01' AND Posts.CreationDate < '2010-12-01')
+UNION ALL
+Select count(*) as count from Posts where Tags like '%<mysql>%' AND (Posts.CreationDate > '2010-12-01' AND Posts.CreationDate < '2010-12-31')
